@@ -1,0 +1,6 @@
+{
+	"wof:id": 102312325,
+	"wof:name": "venue",
+	"wof:role": "common_optional",
+	"wof:parent": [ "building", "address", "campus", "microhood", "neighbourhood" ]
+}

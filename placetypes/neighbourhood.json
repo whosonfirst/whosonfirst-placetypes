@@ -1,0 +1,6 @@
+{
+	"wof:id": 102312319,
+	"wof:name": "neighbourhood",
+	"wof:role": "common",
+	"wof:parent": [ "macrohood", "locality" ]
+}

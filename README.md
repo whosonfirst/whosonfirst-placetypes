@@ -1,0 +1,2 @@
+# whosonfirst-placetypes
+
