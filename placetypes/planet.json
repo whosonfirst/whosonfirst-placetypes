@@ -1,6 +1,6 @@
 {
 	"wof:id": 102312341,
 	"wof:name": "planet",
-	"wof:role": "common",
+	"wof:role": "common_optional",
 	"wof:parent": []
 }
