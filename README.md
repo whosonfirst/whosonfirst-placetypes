@@ -225,5 +225,4 @@ In the end the "good" reasons outweighed the "bad" reasons.
 
 ## See also
 
-
-
+* https://github.com/mapzen/py-mapzen-whosonfirst-placetypes
