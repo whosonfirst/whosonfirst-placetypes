@@ -41,7 +41,7 @@ TBW
 
 ## Placetypes
 
-All place types have a unique 64-bit ID. It should always be possible to query or filter for places by that numeric ID so that the burden of remembering whether it is `neighbourhood` or `neighborhood` or `quartier` or whatever is reserved for friendly banter over drinks.
+All place types have a unique 64-bit numeric ID. It should always be possible to query or filter for places by that numeric ID so that the burden of remembering whether it is `neighbourhood` or `neighborhood` or `quartier` or whatever is reserved for friendly banter over drinks.
 
 In alphabetical order the current list of placetypes in Who's On First is:
 
@@ -125,8 +125,6 @@ A Who's On First (`wof:`) hierarchy is a list of dictionaries, which each item i
 ```
 
 See below for details and rationale.
-
-See also: [PROPERTIES.md](https://github.com/mapzen/theory-gazetteer/blob/master/PROPERTIES.md)
 
 ### How did we get here?
 
