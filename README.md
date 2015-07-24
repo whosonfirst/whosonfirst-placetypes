@@ -49,69 +49,135 @@ In alphabetical order the current list of placetypes in Who's On First is:
 
 `102312329`
 
-Yeah, so like "metro areas" this is an open question. The question being: How/what do we do with OpenAddresses? Neither Kelso or I aren't sure of anything except maybe to put this here as a placeholder for probably between buildings and venues
+This is an open question. The question being: How/what do we do with OpenAddresses? Neither Kelso or I aren't sure of anything except maybe to put this here as a placeholder for probably between buildings and venues
+
+Addresses are considered `common optional`.
 
 ### building
 
+`102312327`
+
 See also: [Imagining the Built Works Registry](https://builtworksregistry.wordpress.com/imagining-the-built-works-registry-by-aaron-straup-cope-christine-kuan/)
+
+Buildings are considered `common optional`.
 
 ### campus
 
+`102312331`
+
 Things like universities or office complexes. Probably airports.
+
+Campuses are considered `common optional`.
 
 ### continent
 
+`102312309`
+
 I think we're all in pretty broad agreement about continents, yeah?
+
+Continents are considered `common`.
 
 ### country
 
+`102312307`
+
 Basically places that issue passports, notwithstanding the details (like
 empires which actually issue the passports...)
+
+Continents are considered `common`.
 
 ### county
 
 This needs a better - that is more abstract - name. Like "region" instead of state, province, whatever... but for counties.
 
+Counties are considered `common optional`.
+
 ### dependency
+
+`102312313`
 
 It's not a sub-region of a country but rather dependent on a parent country for defence, passport control, subsidies, etc.
 
+Dependency are considered `common optional`.
+
 ### disputed
+
+`102322043`
 
 Places that one or more parties claim as their own. As of this writing _all_ disputed places are parented only by the country (and higher) IDs of the claimants. This isn't to say there aren't more granular hierarchies to be applied to these place only that we are starting with the simple stuff first.
 
+Disputed areas are considered `common optional`.
+
 ### empire
+
+`102312335`
 
 Or "sovereignty" but really... empire. For example the Meta United States that contains both the US and Puerto Rico.
 
+Empire is considered `common optional`.
+
 ### locality
+
+`102312317`
 
 Towns and cities, independent of size or population. Things with neighbourhoods, basically. We can start with Quattroshapes and then WOE and then the OSM extracts for things without geometries.
 
+Localities are considered `common`.
+
 ### macrohood
+
+`102312323`
 
 Like "BoCoCa" which in WOE is a neighbourhood that parents another... neighbourhood.
 
+Macrohoods are considered `optional`.
+
 ### metroarea
+
+`102371933`
 
 Things like "The Bay Area" – this one is hard so we shouldn't spend too much time worrying about the details yet but instead treat as something we want to do eventually. We can start with the Natural Earth "urban areas" and maybe some other parts of NE.
 
+Metropolitain areas are considered `common optional`.
+
 ### microhood
+
+`102312321`
 
 Because all place is disputed. And everyone has a name for a place that will offend someone else.
 
+Microhoods are considered `optional`.
+
 ### neighbourhood
+
+`102312319`
 
 Things no one will agree on. Ever.
 
+Neighbourhoods are considered `common`.
+
+### planet
+
+`102312341`
+
+Neighbourhoods are considered `common optional`.
+
 ### region
+
+`102312311`
 
 States, provinces, regions. Let's just call them regions. Places that would have
 a bone in a "states rights" argument. 
 
+Regions are considered `common`.
+
 ### venue
 
+`102312325`
+
 Things with walls, basically. Things with walls that might be public (a bar) or private (your apartment) by default.
+
+Venues are considered `common optional`.
 
 ## Hierarchies
 

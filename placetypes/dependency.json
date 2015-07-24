@@ -1,6 +1,6 @@
 {
 	"wof:id": 102320821,
 	"wof:name": "dependency",
-	"wof:role": "optional",
+	"wof:role": "common_optional",
 	"wof:parent": [ "country" ]
 }
