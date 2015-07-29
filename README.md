@@ -67,6 +67,8 @@ Buildings are considered `common optional`.
 
 Things like universities or office complexes. Probably airports.
 
+Something something something, Burning Man and other annual events.
+
 Campuses are considered `common optional`.
 
 ### continent
