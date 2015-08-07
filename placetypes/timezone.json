@@ -1,0 +1,6 @@
+{
+	"wof:id": 136057795,
+	"wof:name": "timezone",
+	"wof:role": "common_optional",
+	"wof:parent": [ "country", "continent", "planet" ]
+}
