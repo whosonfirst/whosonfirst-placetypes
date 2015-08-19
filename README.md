@@ -2,15 +2,35 @@
 
 ## Who is on first?
 
-For any hierarchy there are three classes of place type:
+For any hierarchy of place types we have identified three “classes” that any one of those place types can fall into. That doesn't mean there can't be others (classes or place types) only that these are the ones we've identified as a good place to start.
 
-* Common (C) – these are, well, common across *any* hierarchy for any place in a gazetteer
+#### Common (C)
 
-* Common-optional (CO) – these are meant to be part of a common hierarchy but may not be present because they aren't relevant or because we don't have the data (for example, the building for a venue)
+These are, well, common across _any_ hierarchy for any place in Who's On First.
 
-* Optional (O) – these are the parts of a hierarchy specific to a location, for example the many nested "departments" in France or Germany. The only rule is that an optional (O) place type has to fit somewhere inside the common (C) hierarchy.
+This part is important: It means that at some point every single record shares at least one or more common ancestors (for example a country or a continent or occasionally just the Earth). That doesn't preclude very specific additions to the hierarchy for a given location only that those additions need to fit within a common hierarchy shared across all locations.
 
-So the minimum list of place types for a skeleton hierarchy, applied globally, would be:
+#### Common-optional (CO) 
+
+These are meant to be part of a common hierarchy but may not be present because they aren't relevant or because we don't have the data. Counties are a good example of this.
+
+#### Optional (O)
+
+These are the parts of a hierarchy specific, typically, to a country or region. For example, the many nested "departments" in France or Germany. The only rule is that an optional (O) place type has to fit somewhere inside the common (C) hierarchy.
+
+So the minimum list of place types for a hierarchy applied globally looks like this:
+
+
+```
+- continent (C)
+  - country (C)
+    - region (C)
+       - "county" (CO)
+          - locality (C)
+            - neighbourhood (C)
+```
+
+A more nuanced version might look like this:
 
 ``` 
 - continent (C)
@@ -20,28 +40,21 @@ So the minimum list of place types for a skeleton hierarchy, applied globally, w
         - "county" (CO)
         - "metro area" (CO)
           - locality (C)
-	    - macrohood (O)
-              - neighbourhood (C)
-	        - microhood (O)
-                  - campus –  (CO)
-                    - building – (CO)
-                      - address – (CO)
-                        - venue (C)
+             - macrohood (O)
+               - neighbourhood (C)
+                - microhood (O)
+                 - campus  (CO)
+                   - building (CO)
+                     - address (CO)
+                       - venue (C)
 ```
-
-We can add others that slot in somewhere on that tree but this is the skeleton.
-
-For example a [microhood](http://aaronland.info/minitenders/) would be parented by a 
-neighbourhood. Each one of these places types would like the places 
-they represent have a stable numeric identifier.
-
-## Dispute
-
-TBW
 
 ## Placetypes
 
-All place types have a unique 64-bit numeric ID. It should always be possible to query or filter for places by that numeric ID so that the burden of remembering whether it is `neighbourhood` or `neighborhood` or `quartier` or whatever is reserved for friendly banter over drinks.
+All place types have a unique 64-bit numeric ID. It should always be possible to
+query or filter for places by that numeric ID so that the burden of remembering
+whether it is `neighbourhood` or `neighborhood` or `quartier` or whatever is
+reserved for friendly banter over drinks.
 
 In alphabetical order the current list of placetypes in Who's On First is:
 
@@ -49,7 +62,9 @@ In alphabetical order the current list of placetypes in Who's On First is:
 
 `102312329`
 
-This is an open question. The question being: How/what do we do with OpenAddresses? Neither Kelso or I aren't sure of anything except maybe to put this here as a placeholder for probably between buildings and venues
+This is an open question. The question being: How/what do we do with
+OpenAddresses? We aren't sure of anything, yet, except maybe to put
+this here as a placeholder for probably between buildings and venues
 
 Addresses are considered `common optional`.
 
@@ -65,9 +80,7 @@ Buildings are considered `common optional`.
 
 `102312331`
 
-Things like universities or office complexes. Probably airports.
-
-Something something something, Burning Man and other annual events.
+Things like universities or office complexes and [airports](https://github.com/whosonfirst/whosonfirst-data/blob/master/meta/wof-campus-latest.csv). Something something something, Burning Man and other annual events.
 
 Campuses are considered `common optional`.
 
@@ -90,7 +103,8 @@ Continents are considered `common`.
 
 ### county
 
-This needs a better - that is more abstract - name. Like "region" instead of state, province, whatever... but for counties.
+This needs a better - that is more abstract - name. Like "region" instead of
+state, province, whatever... but for counties.
 
 Counties are considered `common optional`.
 
@@ -98,7 +112,8 @@ Counties are considered `common optional`.
 
 `102312313`
 
-It's not a sub-region of a country but rather dependent on a parent country for defence, passport control, subsidies, etc.
+It's not a sub-region of a country but rather dependent on a parent country for
+defence, passport control, subsidies, etc.
 
 Dependency are considered `common optional`.
 
@@ -106,7 +121,10 @@ Dependency are considered `common optional`.
 
 `102322043`
 
-Places that one or more parties claim as their own. As of this writing _all_ disputed places are parented only by the country (and higher) IDs of the claimants. This isn't to say there aren't more granular hierarchies to be applied to these place only that we are starting with the simple stuff first.
+Places that one or more parties claim as their own. As of this writing _all_
+disputed places are parented only by the country (and higher) IDs of the
+claimants. This isn't to say there aren't more granular hierarchies to be
+applied to these place only that we are starting with the simple stuff first.
 
 Disputed areas are considered `common optional`.
 
@@ -114,7 +132,8 @@ Disputed areas are considered `common optional`.
 
 `102312335`
 
-Or "sovereignty" but really... empire. For example the Meta United States that contains both the US and Puerto Rico.
+Or "sovereignty" but really... empire. For example the Meta United States that
+contains both the US and Puerto Rico.
 
 Empire is considered `common optional`.
 
@@ -122,7 +141,8 @@ Empire is considered `common optional`.
 
 `102312317`
 
-Towns and cities, independent of size or population. Things with neighbourhoods, basically. We can start with Quattroshapes and then WOE and then the OSM extracts for things without geometries.
+Towns and cities, independent of size or population. Things with neighbourhoods,
+basically.
 
 Localities are considered `common`.
 
@@ -138,7 +158,9 @@ Macrohoods are considered `optional`.
 
 `102371933`
 
-Things like "The Bay Area" – this one is hard so we shouldn't spend too much time worrying about the details yet but instead treat as something we want to do eventually. We can start with the Natural Earth "urban areas" and maybe some other parts of NE.
+Things like "The Bay Area" – this one is hard so we shouldn't spend too much
+time worrying about the details yet but instead treat as something we want to do
+eventually.
 
 Metropolitain areas are considered `common optional`.
 
@@ -146,7 +168,8 @@ Metropolitain areas are considered `common optional`.
 
 `102312321`
 
-Because all place is disputed. And everyone has a name for a place that will offend someone else.
+Because all place is disputed. And everyone has a name for a place that will
+offend someone else.
 
 Microhoods are considered `optional`.
 
@@ -162,7 +185,7 @@ Neighbourhoods are considered `common`.
 
 `102312341`
 
-Neighbourhoods are considered `common optional`.
+The big round thing you're standing on.
 
 ### region
 
@@ -177,7 +200,8 @@ Regions are considered `common`.
 
 `102312325`
 
-Things with walls, basically. Things with walls that might be public (a bar) or private (your apartment) by default.
+Things with walls, basically. Things with walls that might be public (a bar) or
+private (your apartment) by default.
 
 Venues are considered `common optional`.
 
@@ -293,4 +317,4 @@ In the end the "good" reasons outweighed the "bad" reasons.
 
 ## See also
 
-* https://github.com/mapzen/py-mapzen-whosonfirst-placetypes
+* https://github.com/whosonfirst/py-mapzen-whosonfirst-placetypes
