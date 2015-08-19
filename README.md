@@ -205,6 +205,32 @@ private (your apartment) by default.
 
 Venues are considered `common optional`.
 
+## ISO Country codes
+
+Per the ISO 3166 spec which states:
+
+```
+User-assigned code elements are codes at the disposal of users who need to add further names of countries, territories, or other geographical entities to their in-house application of ISO 3166-1, and the ISO 3166/MA will never use these codes in the updating process of the standard. The following codes can be user-assigned:[19]
+
+    Alpha-2: AA, QM to QZ, XA to XZ, and ZZ
+    Alpha-3: AAA to AAZ, QMA to QZZ, XAA to XZZ, and ZZA to ZZZ
+    Numeric: 900 to 999
+```
+
+We use the following ISO country codes:
+
+### XK
+
+We just followed [Geonames' lead](https://geonames.wordpress.com/2010/03/08/xk-country-code-for-kosovo/) and have assigned `XK` to be the ISO country code for Kosovo.
+
+### XY
+
+`XY` denotes an ISO country that has yet to be determined (by us). You might typically see this is a record for a freshly created place that hasn't been fully vetted or editorialized yet.
+
+### XZ
+
+`XZ` is the ISO country code equivalent of `wof:parent_id=-2` or `:shrug: the world is a complicated place`.
+
 ## Hierarchies
 
 A Who's On First (`wof:`) hierarchy is a list of dictionaries, which each item is a dictionary containing a full hierarchy. Like this:
