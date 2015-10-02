@@ -225,7 +225,7 @@ We just followed [Geonames' lead](https://geonames.wordpress.com/2010/03/08/xk-c
 
 ### XN
 
-For [Null Island](http://www.nullisland.com/)
+For [Null Island](http://www.nullisland.com/).
 
 ### XY
 
