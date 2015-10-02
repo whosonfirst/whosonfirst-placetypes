@@ -223,6 +223,10 @@ We use the following ISO country codes:
 
 We just followed [Geonames' lead](https://geonames.wordpress.com/2010/03/08/xk-country-code-for-kosovo/) and have assigned `XK` to be the ISO country code for Kosovo.
 
+### XN
+
+For [Null Island](http://www.nullisland.com/)
+
 ### XY
 
 `XY` denotes an ISO country that has yet to be determined (by us). You might typically see this is a record for a freshly created place that hasn't been fully vetted or editorialized yet.
