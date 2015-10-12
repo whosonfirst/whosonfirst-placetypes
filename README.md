@@ -36,17 +36,19 @@ A more nuanced version might look like this:
 - continent (C)
   - empire (CO)
     - country (C)
+     - macroregion (O)
       - region (C)
+       - macrocounty (O)
         - "county" (CO)
-        - "metro area" (CO)
+         - "metro area" (CO)
           - locality (C)
-             - macrohood (O)
-               - neighbourhood (C)
-                - microhood (O)
-                 - campus  (CO)
-                   - building (CO)
-                     - address (CO)
-                       - venue (C)
+           - macrohood (O)
+            - neighbourhood (C)
+             - microhood (O)
+              - campus  (CO)
+               - building (CO)
+                - address (CO)
+                 - venue (C)
 ```
 
 ## Placetypes
@@ -137,6 +139,14 @@ contains both the US and Puerto Rico.
 
 Empire is considered `common optional`.
 
+### localadmin
+
+`404221409`
+
+In many countries, the lowest level of government. They contain one or more localities (or "populated places") which themselves have no authority. Often but not exclusively found in Europe. 
+
+Localadmins are considered `common optional`
+
 ### locality
 
 `102312317`
@@ -146,6 +156,14 @@ basically.
 
 Localities are considered `common`.
 
+### macrocounty
+
+`404221413`
+
+Bundles of counties!
+
+Macrocounties are considered `optional`. These exists mostly in Europe.
+
 ### macrohood
 
 `102312323`
@@ -153,6 +171,14 @@ Localities are considered `common`.
 Like "BoCoCa" which in WOE is a neighbourhood that parents another... neighbourhood.
 
 Macrohoods are considered `optional`.
+
+### macroregions
+
+`404221411`
+
+Bundles of regions! These exists mostly in Europe.
+
+Macroregions are considered `optional`.
 
 ### metroarea
 
