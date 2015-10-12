@@ -3,5 +3,4 @@
 	"wof:name": "macrohood",
         "wof:role": "optional",
         "wof:parent": [ "locality" ]
-
 }
