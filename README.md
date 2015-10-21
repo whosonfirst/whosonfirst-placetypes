@@ -207,6 +207,14 @@ Things no one will agree on. Ever.
 
 Neighbourhoods are considered `common`.
 
+### ocean
+
+`404528653`
+
+The really big bodies of water. The ones you are cast adrift on....
+
+Oceans are considered `common_optional`.
+
 ### planet
 
 `102312341`
