@@ -1,0 +1,6 @@
+{
+	"wof:id": 404221411,
+	"wof:name": "macroregion",
+	"wof:role": "optional",
+	"wof:parent": [ "dependency", "disputed", "country" ]
+}
