@@ -180,6 +180,14 @@ Bundles of regions! These exists mostly in Europe.
 
 Macroregions are considered `optional`.
 
+### marinearea
+
+`404528655`
+
+Places with fish and boats.
+
+Marine areas are considered `common_optional`.
+
 ### metroarea
 
 `102371933`
@@ -211,7 +219,7 @@ Neighbourhoods are considered `common`.
 
 `404528653`
 
-The really big bodies of water. The ones you are cast adrift on....
+The really big marine areas. The ones that you sometimes feel cast adrift on...
 
 Oceans are considered `common_optional`.
 
