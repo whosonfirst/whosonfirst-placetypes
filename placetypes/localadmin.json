@@ -2,5 +2,5 @@
 	"wof:id": 404221409,
 	"wof:name": "localadmin",
 	"wof:role": "common_optional",
-	"wof:parent": [ "county" ]
+	"wof:parent": [ "county", "region" ]
 }
