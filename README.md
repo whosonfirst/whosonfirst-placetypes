@@ -51,6 +51,14 @@ A more nuanced version might look like this:
                  - venue (C)
 ```
 
+## Here is a pretty picture 
+
+The blue boxes are `common` placetypes, the green ones `common_optional` and the yellow ones are `optional`.
+
+![](placetypes-20151202.png)
+
+_This image was generated using the [handy wof-graph-placetypes script in the py-mapzen-whosonfirst-placetypes library](https://github.com/whosonfirst/py-mapzen-whosonfirst-placetypes/blob/master/scripts/wof-graph-placetypes)_
+
 ## Placetypes
 
 All place types have a unique 64-bit numeric ID. It should always be possible to
