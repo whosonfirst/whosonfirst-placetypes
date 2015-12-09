@@ -1,5 +1,7 @@
 # whosonfirst-placetypes
 
+Where things are (and what they mean) in Who's On First
+
 ## Who is on first?
 
 For any hierarchy of place types we have identified three “classes” that any one of those place types can fall into. That doesn't mean there can't be others (classes or place types) only that these are the ones we've identified as a good place to start.
