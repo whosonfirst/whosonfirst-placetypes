@@ -55,7 +55,7 @@ A more nuanced version might look like this:
 
 The blue boxes are `common` placetypes, the green ones `common_optional` and the yellow ones are `optional`.
 
-![](placetypes-20151202.png)
+![](images/placetypes-latest.png)
 
 _This image was generated using the [handy wof-graph-placetypes script in the py-mapzen-whosonfirst-placetypes library](https://github.com/whosonfirst/py-mapzen-whosonfirst-placetypes/blob/master/scripts/wof-graph-placetypes)_
 
