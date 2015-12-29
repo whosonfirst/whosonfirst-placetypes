@@ -127,7 +127,7 @@ Counties are considered `common optional`.
 It's not a sub-region of a country but rather dependent on a parent country for
 defence, passport control, subsidies, etc.
 
-Dependency are considered `common optional`.
+Dependencies are considered `common optional`.
 
 ### disputed
 
@@ -147,7 +147,7 @@ Disputed areas are considered `common optional`.
 Or "sovereignty" but really... empire. For example the Meta United States that
 contains both the US and Puerto Rico.
 
-Empire is considered `common optional`.
+Empires are considered `common optional`.
 
 ### localadmin
 
@@ -244,7 +244,7 @@ The big round thing you're standing on.
 `102312311`
 
 States, provinces, regions. Let's just call them regions. Places that would have
-a bone in a "states rights" argument. 
+a bone in a "[states rights](https://en.wikipedia.org/wiki/States'_rights)" argument. 
 
 Regions are considered `common`.
 
