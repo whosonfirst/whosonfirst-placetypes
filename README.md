@@ -243,7 +243,7 @@ The big round thing you're standing on.
 
 `102312311`
 
-States, provinces, regions. Let's just call them regions. Places that would have
+States, provinces, regions. We call them `regions`. These are places that would have
 a bone in a "[states rights](https://en.wikipedia.org/wiki/States'_rights)" argument. 
 
 Regions are considered `common`.
