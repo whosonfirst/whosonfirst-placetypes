@@ -279,6 +279,10 @@ We just followed [Geonames' lead](https://geonames.wordpress.com/2010/03/08/xk-c
 
 For [Null Island](http://www.nullisland.com/).
 
+### XX
+
+`XX` denotes a place disputed by two or more (ISO) countries.
+
 ### XY
 
 `XY` denotes an ISO country that has yet to be determined (by us). You might typically see this is a record for a freshly created place that hasn't been fully vetted or editorialized yet.
