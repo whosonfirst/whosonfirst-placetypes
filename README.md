@@ -252,8 +252,7 @@ Regions are considered `common`.
 
 `102312325`
 
-Things with walls, basically. Things with walls that might be public (a bar) or
-private (your apartment) by default.
+Things with walls, often but mostly things that people stand around _together_. Things with walls  might be public (a bar) or private (your apartment) by default. 
 
 Venues are considered `common optional`.
 
