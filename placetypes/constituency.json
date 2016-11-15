@@ -1,6 +1,6 @@
 {
 	"wof:id": 1108746739,
-	"wof:name": "venue",
-	"wof:role": "constituency",
+	"wof:name": "constituency",
+	"wof:role": "common_optional",
 	"wof:parent": [ ]
 }
