@@ -2,5 +2,5 @@
 	"wof:id": 102312307,
 	"wof:name": "country",
 	"wof:role": "common",
-	"wof:parent": [ "empire", "continent" ]
+	"wof:parent": [ "continent", "empire" ]
 }
