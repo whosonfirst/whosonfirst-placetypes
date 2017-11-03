@@ -2,5 +2,5 @@
 	"wof:id": 102320821,
 	"wof:name": "dependency",
 	"wof:role": "common_optional",
-	"wof:parent": [ "country", "empire" ]
+	"wof:parent": [ "empire" ]
 }
