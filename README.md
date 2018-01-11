@@ -278,6 +278,10 @@ We just followed [Geonames' lead](https://geonames.wordpress.com/2010/03/08/xk-c
 
 For [Null Island](http://www.nullisland.com/).
 
+### XS
+
+We use `XS` to indicate Somaliland.
+
 ### XX
 
 `XX` denotes a place disputed by two or more (ISO) countries.
