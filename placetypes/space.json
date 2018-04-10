@@ -2,5 +2,5 @@
 	"wof:id": 1159162575,
 	"wof:name": "space",
 	"wof:role": "common_optional",
-	"wof:parent": [ "area", "wing", "building" ]
+	"wof:parent": [ "concourse", "wing", "building" ]
 }
