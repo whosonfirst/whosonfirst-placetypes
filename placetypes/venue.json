@@ -2,5 +2,5 @@
 	"wof:id": 102312325,
 	"wof:name": "venue",
 	"wof:role": "common_optional",
-	"wof:parent": [ "space", "concourse", "wing", "building", "address", "intersection", "campus", "microhood", "neighbourhood" ]
+	"wof:parent": [ "arena", "concourse", "wing", "building", "address", "intersection", "campus", "microhood", "neighbourhood" ]
 }

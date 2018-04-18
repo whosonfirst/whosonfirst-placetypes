@@ -1,6 +1,6 @@
 {
 	"wof:id": 1159162575,
-	"wof:name": "space",
+	"wof:name": "arena",
 	"wof:role": "common_optional",
 	"wof:parent": [ "concourse", "wing", "building" ]
 }
