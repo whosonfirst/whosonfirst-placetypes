@@ -1,6 +1,6 @@
 {
 	"wof:id": 1159162573,
 	"wof:name": "concourse",
-	"wof:role": "common_optional",
+	"wof:role": "optional",
 	"wof:parent": [ "wing", "building" ]
 }

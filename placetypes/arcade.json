@@ -1,6 +1,6 @@
 {
 	"wof:id": 1159162575,
-	"wof:name": "arena",
-	"wof:role": "common_optional",
+	"wof:name": "arcade",
+	"wof:role": "optional",
 	"wof:parent": [ "concourse", "wing", "building" ]
 }
