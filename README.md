@@ -115,6 +115,8 @@ Concourses are considered `optional`.
 
 `1108746739`
 
+An area entitled to elect a representative.
+
 Constituencies are considered `common_optional`.
 
 ### continent
@@ -180,6 +182,8 @@ Installations are considered `optional`.
 ### intersection
 
 `1108906905`
+
+Where things meet.
 
 Intersections are considered `optional`.
 
@@ -251,7 +255,7 @@ Microhoods are considered `optional`.
 
 `102312319`
 
-Things no one will agree on. Ever.
+Neighbourhoods can represent an area surrounding a "place", a community grouping, or even a physical area. One thing is certain - neighbourhoods are things no one will agree on. Ever. 
 
 Neighbourhoods are considered `common`.
 
@@ -275,6 +279,8 @@ The planet is considered `common_optional`.
 
 `470996387`
 
+Used for mail sorting and stringing addresses together.
+
 Postalcodes are considered `common_optional`.
 
 ### region
@@ -288,6 +294,8 @@ Regions are considered `common`.
 ### timezone
 
 `136057795`
+
+An area where a single, standard time is used.
 
 Timezones are considered `common_optional`.
 
