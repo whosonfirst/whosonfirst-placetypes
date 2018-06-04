@@ -127,14 +127,6 @@ I think we're all in pretty broad agreement about continents, yeah?
 
 Continents are considered `common`.
 
-### country
-
-`102312307`
-
-Basically places that issue passports, notwithstanding the details (like empires which actually issue the passports...)
-
-Continents are considered `common`.
-
 ### county
 
 `102312313`
@@ -143,11 +135,19 @@ This needs a better - that is more abstract - name. Like "region" instead of sta
 
 Counties are considered `common_optional`.
 
+### country
+
+`102312307`
+
+Basically places that issue passports, notwithstanding the details (like empires which actually issue the passports...). In some areas country and dependency are used interchangeably.
+
+Continents are considered `common`.
+
 ### dependency
 
 `102312313`
 
-It's not a sub-region of a country but rather dependent on a parent country for defence, passport control, subsidies, etc.
+It's not a sub-region of a country but rather dependent on a parent country for defence, passport control, subsidies, etc. In some areas country and dependency are used interchangeably.
 
 Dependencies are considered `common_optional`.
 
@@ -191,7 +191,7 @@ Intersections are considered `optional`.
 
 `404221409`
 
-In many countries, the lowest level of government. They contain one or more localities (or "populated places") which themselves have no authority. Often but not exclusively found in Europe. 
+In many countries, the lowest level of government. They contain one or more localities (or "populated places") which themselves have no authority. Often but not exclusively found in Europe. In some areas locality and localadmin are used interchangeably.
 
 Localadmins are considered `common_optional`.
 
@@ -199,7 +199,7 @@ Localadmins are considered `common_optional`.
 
 `102312317`
 
-Towns and cities, independent of size or population. Things with neighbourhoods, basically.
+Towns and cities, independent of size or population. Things with neighbourhoods, basically. In some areas locality and localadmin are used interchangeably.
 
 Localities are considered `common`.
 
@@ -255,7 +255,7 @@ Microhoods are considered `optional`.
 
 `102312319`
 
-Neighbourhoods can represent an area surrounding a "place", a community grouping, or even a physical area. One thing is certain - neighbourhoods are things no one will agree on. Ever. 
+Neighbourhoods can represent an area surrounding a "place", a community grouping, or even a physical area. One thing is certain - neighbourhoods are things no one will completely agree on. Ever. 
 
 Neighbourhoods are considered `common`.
 
