@@ -12,7 +12,7 @@ These are, well, common across _any_ hierarchy for any place in Who's On First.
 
 This part is important: It means that at some point every single record shares at least one or more common ancestors (for example a country or a continent or occasionally just the Earth). That doesn't preclude very specific additions to the hierarchy for a given location only that those additions need to fit within a common hierarchy shared across all locations.
 
-#### Common-optional (CO) 
+#### Common_optional (CO) 
 
 These are meant to be part of a common hierarchy but may not be present because they aren't relevant or because we don't have the data. Counties are a good example of this.
 
@@ -27,7 +27,7 @@ So the minimum list of place types for a hierarchy applied globally looks like t
 - continent (C)
   - country (C)
     - region (C)
-       - "county" (CO)
+       - county (CO)
           - locality (C)
             - neighbourhood (C)
 ```
@@ -41,8 +41,8 @@ A more nuanced version might look like this:
      - macroregion (O)
       - region (C)
        - macrocounty (O)
-        - "county" (CO)
-         - "metro area" (CO)
+        - county (CO)
+         - metro area (CO)
           - locality (C)
            - macrohood (O)
             - neighbourhood (C)
@@ -63,10 +63,7 @@ _This image was generated using the [handy wof-graph-placetypes script in the py
 
 ## Placetypes
 
-All place types have a unique 64-bit numeric ID. It should always be possible to
-query or filter for places by that numeric ID so that the burden of remembering
-whether it is `neighbourhood` or `neighborhood` or `quartier` or whatever is
-reserved for friendly banter over drinks.
+All place types have a unique 64-bit numeric ID. It should always be possible to query or filter for places by that numeric ID so that the burden of remembering whether it is `neighbourhood` or `neighborhood` or `quartier` or whatever is reserved for friendly banter over drinks.
 
 In alphabetical order the current list of placetypes in Who's On First is:
 
@@ -74,11 +71,23 @@ In alphabetical order the current list of placetypes in Who's On First is:
 
 `102312329`
 
-This is an open question. The question being: How/what do we do with
-OpenAddresses? We aren't sure of anything, yet, except maybe to put
-this here as a placeholder for probably between buildings and venues
+This is an open question. The question being: How/what do we do with OpenAddresses? We aren't sure of anything, yet, except maybe to put this here as a placeholder for probably between buildings and venues
 
-Addresses are considered `common optional`.
+Addresses are considered `common_optional`.
+
+### arcade
+
+`1159162575`
+
+Arcades are considered `optional`.
+
+### borough
+
+`421205763`
+
+A local government unit, below the `locality` placetype. Think [Brooklyn](https://spelunker.whosonfirst.org/id/421205765/).
+
+Boroughs are considered `common_optional`.
 
 ### building
 
@@ -86,15 +95,27 @@ Addresses are considered `common optional`.
 
 See also: [Imagining the Built Works Registry](https://builtworksregistry.wordpress.com/imagining-the-built-works-registry-by-aaron-straup-cope-christine-kuan/)
 
-Buildings are considered `common optional`.
+Buildings are considered `common_optional`.
 
 ### campus
 
 `102312331`
 
-Things like universities or office complexes and [airports](https://github.com/whosonfirst/whosonfirst-data/blob/master/meta/wof-campus-latest.csv). Something something something, Burning Man and other annual events.
+Things like universities or office complexes and [airports](https://spelunker.whosonfirst.org/placetypes/campus/). Something something something, Burning Man and other annual events.
 
-Campuses are considered `common optional`.
+Campuses are considered `common_optional`.
+
+### concourse
+
+`1159162573`
+
+Concourses are considered `optional`.
+
+### constituency
+
+`1108746739`
+
+Constituencies are considered `common_optional`.
 
 ### continent
 
@@ -108,46 +129,59 @@ Continents are considered `common`.
 
 `102312307`
 
-Basically places that issue passports, notwithstanding the details (like
-empires which actually issue the passports...)
+Basically places that issue passports, notwithstanding the details (like empires which actually issue the passports...)
 
 Continents are considered `common`.
 
 ### county
 
-This needs a better - that is more abstract - name. Like "region" instead of
-state, province, whatever... but for counties.
+`102312313`
 
-Counties are considered `common optional`.
+This needs a better - that is more abstract - name. Like "region" instead of state, province, whatever... but for counties.
+
+Counties are considered `common_optional`.
 
 ### dependency
 
 `102312313`
 
-It's not a sub-region of a country but rather dependent on a parent country for
-defence, passport control, subsidies, etc.
+It's not a sub-region of a country but rather dependent on a parent country for defence, passport control, subsidies, etc.
 
-Dependencies are considered `common optional`.
+Dependencies are considered `common_optional`.
 
 ### disputed
 
 `102322043`
 
-Places that one or more parties claim as their own. As of this writing _all_
-disputed places are parented only by the country (and higher) IDs of the
-claimants. This isn't to say there aren't more granular hierarchies to be
-applied to these place only that we are starting with the simple stuff first.
+Places that one or more parties claim as their own. As of this writing _all_ disputed places are parented only by the country (and higher) IDs of the claimants. This isn't to say there aren't more granular hierarchies to be applied to these place only that we are starting with the simple stuff first.
 
-Disputed areas are considered `common optional`.
+Disputed areas are considered `common_optional`.
 
 ### empire
 
 `102312335`
 
-Or "sovereignty" but really... empire. For example the Meta United States that
-contains both the US and Puerto Rico.
+Or "sovereignty" but really... empire. For example the Meta United States that contains both the US and Puerto Rico.
 
-Empires are considered `common optional`.
+Empires are considered `common_optional`.
+
+### enclosure
+
+`1159268867`
+
+Enclosures are considered `optional`.
+
+### installation
+
+`1159268869`
+
+Installations are considered `optional`.
+
+### intersection
+
+`1108906905`
+
+Intersections are considered `optional`.
 
 ### localadmin
 
@@ -155,14 +189,13 @@ Empires are considered `common optional`.
 
 In many countries, the lowest level of government. They contain one or more localities (or "populated places") which themselves have no authority. Often but not exclusively found in Europe. 
 
-Localadmins are considered `common optional`
+Localadmins are considered `common_optional`.
 
 ### locality
 
 `102312317`
 
-Towns and cities, independent of size or population. Things with neighbourhoods,
-basically.
+Towns and cities, independent of size or population. Things with neighbourhoods, basically.
 
 Localities are considered `common`.
 
@@ -170,9 +203,9 @@ Localities are considered `common`.
 
 `404221413`
 
-Bundles of counties!
+Bundles of counties! These exists mostly in Europe.
 
-Macrocounties are considered `optional`. These exists mostly in Europe.
+Macrocounties are considered `optional`.
 
 ### macrohood
 
@@ -202,18 +235,15 @@ Marine areas are considered `common_optional`.
 
 `102371933`
 
-Things like "The Bay Area" – this one is hard so we shouldn't spend too much
-time worrying about the details yet but instead treat as something we want to do
-eventually.
+Things like "The Bay Area" – this one is hard so we shouldn't spend too much time worrying about the details yet but instead treat as something we want to do eventually.
 
-Metropolitain areas are considered `common optional`.
+Metropolitain areas are considered `common_optional`.
 
 ### microhood
 
 `102312321`
 
-Because all place is disputed. And everyone has a name for a place that will
-offend someone else.
+Because all place is disputed. And everyone has a name for a place that will offend someone else.
 
 Microhoods are considered `optional`.
 
@@ -239,14 +269,27 @@ Oceans are considered `common_optional`.
 
 The big round thing you're standing on.
 
+The planet is considered `common_optional`.
+
+### postalcode
+
+`470996387`
+
+Postalcodes are considered `common_optional`.
+
 ### region
 
 `102312311`
 
-States, provinces, regions. We call them `regions`. These are places that would have
-a bone in a "[states rights](https://en.wikipedia.org/wiki/States'_rights)" argument. 
+States, provinces, regions. We call them `regions`. These are places that would have a bone in a "[states rights](https://en.wikipedia.org/wiki/States'_rights)" argument. 
 
 Regions are considered `common`.
+
+### timezone
+
+`136057795`
+
+Timezones are considered `common_optional`.
 
 ### venue
 
@@ -254,7 +297,13 @@ Regions are considered `common`.
 
 Things with walls, often but mostly things that people stand around _together_. Things with walls  might be public (a bar) or private (your apartment) by default. 
 
-Venues are considered `common optional`.
+Venues are considered `common_optional`.
+
+### wing
+
+`1159162571`
+
+Wings are considered `optional`.
 
 ## ISO Country codes
 
