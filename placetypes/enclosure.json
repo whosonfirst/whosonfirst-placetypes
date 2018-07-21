@@ -2,5 +2,5 @@
 	"wof:id": 1159268867,
 	"wof:name": "enclosure",
 	"wof:role": "optional",
-	"wof:parent": [ "venue" ]
+	"wof:parent": [ "venue", "arcade", "concourse"  ]
 }
