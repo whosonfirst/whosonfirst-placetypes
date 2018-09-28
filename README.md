@@ -235,6 +235,12 @@ Places with fish and boats.
 
 Marine areas are considered `common_optional`.
 
+### marketarea
+
+`1360666019`
+
+Market areas are considered `optional`.
+
 ### metroarea
 
 `102371933`
