@@ -239,6 +239,8 @@ Marine areas are considered `common_optional`.
 
 `1360666019`
 
+Economic geography areas that are usually an aggregation of counties or postalcodes based on TV, radio, and other media related audiences.
+
 Market areas are considered `optional`.
 
 ### metroarea
