@@ -2,5 +2,8 @@
 	"wof:id": 102312321,
 	"wof:name": "microhood",
 	"wof:role": "optional",
-	"wof:parent": [ "neighbourhood" ]
+	"wof:parent": [ "neighbourhood" ],
+	"wof:concordances": {
+		"wd:id": "Q66980952"
+	}
 }

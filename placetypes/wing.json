@@ -2,5 +2,8 @@
 	"wof:id": 1159162571,
 	"wof:name": "wing",
 	"wof:role": "optional",
-	"wof:parent": [ "building" ]
+	"wof:parent": [ "building" ],
+	"wof:concordances": {
+		"wd:id": "Q1125776"
+	}
 }

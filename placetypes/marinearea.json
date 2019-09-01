@@ -2,5 +2,8 @@
 	"wof:id": 404528655,
 	"wof:name": "marinearea",
 	"wof:role": "common_optional",
-	"wof:parent": [ "country", "continent", "planet" ]
+	"wof:parent": [ "country", "continent", "planet" ],
+	"wof:concordances": {
+		"wd:id": "Q66980635"
+	}
 }

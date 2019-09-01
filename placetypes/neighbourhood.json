@@ -3,5 +3,8 @@
 	"wof:name": "neighbourhood",
 	"wof:role": "common",
 	"wof:parent": [ "macrohood", "borough", "locality" ],
-    	"name:eng_p": [ "neighbourhood", "neighborhood" ]
+	"name:eng_p": [ "neighbourhood", "neighborhood" ],
+	"wof:concordances": {
+		"wd:id": "Q123705"
+	}
 }

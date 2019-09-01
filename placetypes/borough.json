@@ -2,5 +2,8 @@
 	"wof:id": 421205763,
 	"wof:name": "borough",
 	"wof:role": "common_optional",
-	"wof:parent": [ "locality", "localadmin" ]
+	"wof:parent": [ "locality", "localadmin" ],
+	"wof:concordances": {
+		"wd:id": "Q5195043"
+	}
 }
