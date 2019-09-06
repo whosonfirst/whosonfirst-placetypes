@@ -1,0 +1,14 @@
+{
+  "name": "whosonfirst-placetypes",
+  "description": "Where things are (and what they mean) in Who's On First",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whosonfirst/whosonfirst-placetypes.git"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/whosonfirst/whosonfirst-placetypes/issues"
+  },
+  "homepage": "https://github.com/whosonfirst/whosonfirst-placetypes#readme"
+}
