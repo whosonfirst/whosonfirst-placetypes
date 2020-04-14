@@ -2,5 +2,8 @@
 	"wof:id": 1159268867,
 	"wof:name": "enclosure",
 	"wof:role": "optional",
-	"wof:parent": [ "venue", "arcade", "concourse"  ]
+	"wof:parent": [ "venue", "arcade", "concourse"  ],
+	"wof:concordances": {
+		"wd:id": "Q5375483"
+	}
 }

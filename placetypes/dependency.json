@@ -2,5 +2,8 @@
 	"wof:id": 102320821,
 	"wof:name": "dependency",
 	"wof:role": "common_optional",
-	"wof:parent": [ "empire" ]
+	"wof:parent": [ "empire" ],
+	"wof:concordances": {
+		"wd:id": "Q161243"
+	}
 }

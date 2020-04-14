@@ -2,5 +2,8 @@
 	"wof:id": 1360666019,
 	"wof:name": "marketarea",
 	"wof:role": "optional",
-	"wof:parent": [ "country" ]
+	"wof:parent": [ "country" ],
+	"wof:concordances": {
+		"wd:id": "Q6770790"
+	}
 }

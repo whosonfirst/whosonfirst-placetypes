@@ -2,5 +2,8 @@
 	"wof:id": 102312323,
 	"wof:name": "macrohood",
         "wof:role": "optional",
-        "wof:parent": [ "borough", "locality" ]
+        "wof:parent": [ "borough", "locality" ],
+        "wof:concordances": {
+		"wd:id": "Q66980180"
+	}
 }

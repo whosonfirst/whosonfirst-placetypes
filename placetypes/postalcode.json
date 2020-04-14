@@ -2,5 +2,8 @@
 	"wof:id": 470996387,
 	"wof:name": "postalcode",
 	"wof:role": "common_optional",
-	"wof:parent": [ "locality", "localadmin", "county", "region" ]
+	"wof:parent": [ "locality", "localadmin", "county", "region" ],
+	"wof:concordances": {
+		"wd:id": "Q37447"
+	}
 }

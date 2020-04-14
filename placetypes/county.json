@@ -2,5 +2,8 @@
 	"wof:id": 102312313,
 	"wof:name": "county",
 	"wof:role": "common_optional",
-	"wof:parent": [ "macrocounty", "region" ]
+	"wof:parent": [ "macrocounty", "region" ],
+	"wof:concordances": {
+		"wd:id": "Q28575"
+	}
 }

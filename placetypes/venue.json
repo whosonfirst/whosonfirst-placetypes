@@ -2,5 +2,8 @@
 	"wof:id": 102312325,
 	"wof:name": "venue",
 	"wof:role": "common_optional",
-	"wof:parent": [ "arcade", "concourse", "wing", "building", "address", "intersection", "campus", "microhood", "neighbourhood" ]
+	"wof:parent": [ "arcade", "concourse", "wing", "building", "address", "intersection", "campus", "microhood", "neighbourhood" ],
+	"wof:concordances": {
+		"wd:id": "Q17350442"
+	}
 }

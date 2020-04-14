@@ -2,5 +2,8 @@
 	"wof:id": 102322043,
 	"wof:name": "disputed",
 	"wof:role": "common_optional",
-	"wof:parent": [ "country" ]
+	"wof:parent": [ "country" ],
+	"wof:concordances": {
+		"wd:id": "Q15239622"
+	}
 }

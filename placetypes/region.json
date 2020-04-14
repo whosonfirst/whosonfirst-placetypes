@@ -2,5 +2,8 @@
 	"wof:id": 102312311,
 	"wof:name": "region",
 	"wof:role": "common",
-	"wof:parent": [ "macroregion", "dependency", "disputed", "country" ]
+	"wof:parent": [ "macroregion", "dependency", "disputed", "country" ],
+	"wof:concordances": {
+		"wd:id": "Q3455524"
+	}
 }

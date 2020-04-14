@@ -2,5 +2,8 @@
 	"wof:id": 1159162575,
 	"wof:name": "arcade",
 	"wof:role": "optional",
-	"wof:parent": [ "concourse", "wing", "building" ]
+	"wof:parent": [ "concourse", "wing", "building" ],
+	"wof:concordances": {
+		"wd:id": "Q11315"
+	}
 }
