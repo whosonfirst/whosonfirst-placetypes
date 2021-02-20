@@ -143,6 +143,16 @@ Basically places that issue passports, notwithstanding the details (like empires
 
 Continents are considered `common`.
 
+### custom
+
+`1729783759`
+
+Custom placetypes are provided as a convenience for projects producing data that live outside of the "core" Who's On First (WOF) data repositories as a way to allow those records to have a well-known WOF placetype. This ensures that these projects can continue to use the WOF-related tooling, some of which enforces strict validation on things like placetypes.
+
+The `custom` placetype has no predefined list of ancestors or any other computationally-derived metadata so properties like `wof:hierarchy` will need to be produced by the projects using the `custom` placetype on an as-needed basis. Any specific detail about a record's placetype should be encoded in a project-specific namespace.
+
+Custom placetypes are considered `optional`.
+
 ### dependency
 
 `102312313`
