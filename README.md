@@ -269,6 +269,16 @@ Because all place is disputed. And everyone has a name for a place that will off
 
 Microhoods are considered `optional`.
 
+### nation
+
+`1796730315`
+
+Nations are things that might otherwise be considered "countries" (in the past) but because the semantics of grouping these with contemporary (administrative state) countries would be confusing a separate placetype was added.
+
+One way to think about is that all countries are nations but, in Who's On First, not all nations are countries. I know, right?
+
+Nations are considered `optional`.
+
 ### neighbourhood
 
 `102312319`
