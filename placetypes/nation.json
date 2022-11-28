@@ -1,0 +1,9 @@
+{
+	"wof:id": 1796730315,
+	"wof:name": "nation",
+	"wof:role": "common_optional",
+	"wof:parent": [ "continent", "empire" ],
+	"wof:concordances": {
+		"wd:id": "Q6266"
+	}
+}
