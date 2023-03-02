@@ -1,9 +1,9 @@
 {
-	"wof:id": 102371933,
-	"wof:name": "metroarea",
-	"wof:role": "optional",
-	"wof:parent": [ ],
-	"wof:concordances": {
-		"wd:id": "Q1907114"
-	}
+    "wof:id": 102371933,
+    "wof:name": "metroarea",
+    "wof:role": "optional",
+    "wof:parent": [ "region", "country" ],
+    "wof:concordances": {
+	"wd:id": "Q1907114"
+    }
 }

@@ -2,6 +2,6 @@
 	"wof:id": 1729783759,
 	"wof:name": "custom",
 	"wof:role": "optional",
-	"wof:parent": [ ],
+	"wof:parent": [ "planet" ],
 	"wof:concordances": {}
 }

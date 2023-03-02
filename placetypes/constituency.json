@@ -1,9 +1,9 @@
 {
-	"wof:id": 1108746739,
-	"wof:name": "constituency",
-	"wof:role": "common_optional",
-	"wof:parent": [ ],
-	"wof:concordances": {
-		"wd:id": "Q192611"
-	}
+    "wof:id": 1108746739,
+    "wof:name": "constituency",
+    "wof:role": "common_optional",
+    "wof:parent": [ "locality", "localadmin", "county", "region", "country" ],
+    "wof:concordances": {
+	"wd:id": "Q192611"
+    }
 }
