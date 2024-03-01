@@ -311,6 +311,14 @@ Used for mail sorting and stringing addresses together.
 
 Postalcodes are considered `common_optional`.
 
+### postalregion
+
+`1897483759`
+
+Used for denoting areas for mail sorting. Often a prefix of `postalcode`, but not always.
+
+Postalregions are considered `common_optional`.
+
 ### region
 
 `102312311`

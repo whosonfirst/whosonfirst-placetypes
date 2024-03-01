@@ -1,0 +1,9 @@
+{
+	"wof:id": 1897483759,
+	"wof:name": "postalregion",
+	"wof:role": "common_optional",
+	"wof:parent": [ "country", "macroregion", "region" ],
+	"wof:concordances": {
+		"wd:id": "Q124695278"
+	}
+}

@@ -68,5 +68,5 @@ if __name__ == '__main__':
 
     # print pprint.pformat(spec)
     
-    print json.dumps(spec)
+    print(json.dumps(spec))
     sys.exit()
