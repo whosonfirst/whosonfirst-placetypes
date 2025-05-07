@@ -499,6 +499,6 @@ In the end the "good" reasons outweighed the "bad" reasons.
 
 ## See also
 
+* https://github.com/whosonfirst/whosonfirst-docs
 * https://github.com/whosonfirst/whosonfirst-placetypes-constituencies
-
 * https://github.com/whosonfirst/go-whosonfirst-placetypes
